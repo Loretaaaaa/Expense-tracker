@@ -7,9 +7,10 @@ import ExpenseForm from "./components/ExpenseForm";
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [expenses, setExpenses] = useState([
-    { id: 1, description: "Grocery", amount: 100, category: "Utilities" },
-    { id: 2, description: "Gas", amount: 30, category: "Utilities" },
-    { id: 3, description: "Rent", amount: 800, category: "Home" },
+    { id: 1, description: "Movies", amount: 100, category: "Entertainment" },
+    { id: 2, description: "Games", amount: 30, category: "Entertainment" },
+    { id: 3, description: "Rent", amount: 800, category: "Utilities" },
+    { id: 4, description: "React Course", amount: 500, category: "Education" },
   ]);
 
   const visibleExpenses = selectedCategory
